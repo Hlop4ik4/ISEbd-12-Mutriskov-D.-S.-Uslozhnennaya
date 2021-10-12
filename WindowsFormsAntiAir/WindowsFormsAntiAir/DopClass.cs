@@ -28,7 +28,6 @@ namespace WindowsFormsAntiAir
                     g.DrawLine(dopPen, _startPosX + 130, _startPosY + 17, _startPosX + 80, _startPosY - 3);
                     break;
                 case DopEnum.FourGuns:
-                    g.DrawLine(dopPen, _startPosX + 130, _startPosY + 17, _startPosX + 80, _startPosY - 3);
                     g.DrawLine(dopPen, _startPosX + 130, _startPosY + 17, _startPosX + 180, _startPosY - 3);
                     g.DrawLine(dopPen, _startPosX + 130, _startPosY + 17, _startPosX + 190, _startPosY - 3);
                     break;
