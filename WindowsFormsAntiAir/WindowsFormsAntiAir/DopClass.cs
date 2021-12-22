@@ -45,7 +45,6 @@ namespace WindowsFormsAntiAir
 
         public void DrawGuns(Graphics g, float _startPosX, float _startPosY, Color dopColor)
         {
-            Pen dopPen = new Pen(dopColor);
             switch (dopEnum)
             {
                 case DopEnum.TwoGuns:
