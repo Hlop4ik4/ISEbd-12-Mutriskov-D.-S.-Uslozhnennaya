@@ -28,7 +28,7 @@ namespace WindowsFormsAntiAir
         private void DrawFourGuns(Graphics g, float _startPosX, float _startPosY, Color dopColor)
         {
             Pen dopPen = new Pen(dopColor);
-            g.DrawLine(dopPen, _startPosX + 130, _startPosY + 17, _startPosX + 80, _startPosY - 3);
+            DrawTwoGuns(g, _startPosX, _startPosY, dopColor);
             g.DrawLine(dopPen, _startPosX + 130, _startPosY + 17, _startPosX + 180, _startPosY - 3);
             g.DrawLine(dopPen, _startPosX + 130, _startPosY + 17, _startPosX + 190, _startPosY - 3);
         }
@@ -36,9 +36,7 @@ namespace WindowsFormsAntiAir
         private void DrawSixGuns(Graphics g, float _startPosX, float _startPosY, Color dopColor)
         {
             Pen dopPen = new Pen(dopColor);
-            g.DrawLine(dopPen, _startPosX + 130, _startPosY + 17, _startPosX + 80, _startPosY - 3);
-            g.DrawLine(dopPen, _startPosX + 130, _startPosY + 17, _startPosX + 180, _startPosY - 3);
-            g.DrawLine(dopPen, _startPosX + 130, _startPosY + 17, _startPosX + 190, _startPosY - 3);
+            DrawFourGuns(g, _startPosX, _startPosY, dopColor);
             g.DrawLine(dopPen, _startPosX + 130, _startPosY + 17, _startPosX + 60, _startPosY);
             g.DrawLine(dopPen, _startPosX + 130, _startPosY + 17, _startPosX + 200, _startPosY);
         }
