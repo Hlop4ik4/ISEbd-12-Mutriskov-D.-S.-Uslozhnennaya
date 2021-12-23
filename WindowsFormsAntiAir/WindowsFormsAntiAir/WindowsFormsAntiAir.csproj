@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AntiAir.cs" />
+    <Compile Include="ArmoredCar.cs" />
     <Compile Include="Direction.cs" />
     <Compile Include="DopClass.cs" />
     <Compile Include="DopEnum.cs" />
@@ -56,8 +57,10 @@
     <Compile Include="FormAA.Designer.cs">
       <DependentUpon>FormAA.cs</DependentUpon>
     </Compile>
+    <Compile Include="IAntiAir.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vehicle.cs" />
     <EmbeddedResource Include="FormAA.resx">
       <DependentUpon>FormAA.cs</DependentUpon>
     </EmbeddedResource>
